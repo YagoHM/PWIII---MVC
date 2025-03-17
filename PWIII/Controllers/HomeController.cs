@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Projeto.Models;
+using PWIII.Models;
 
-namespace Projeto.Controllers
+namespace PW3.Controllers
 {
     public class HomeController : Controller
     {
@@ -13,6 +13,11 @@ namespace Projeto.Controllers
             _logger = logger;
         }
 
+        //Para criar uma nova tela crie um novo metodo abaixo
+        public IActionResult Tiago()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             return View();

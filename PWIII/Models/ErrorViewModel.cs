@@ -1,4 +1,4 @@
-namespace Projeto.Models
+namespace PWIII.Models
 {
     public class ErrorViewModel
     {
